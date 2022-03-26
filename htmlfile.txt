@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel ="stylesheet" href="ministyle.css">
+ <title>N Puzzle Solver</title>
+</head>
+<body>
+
+
+    <header>
+        <h1>N Puzzle Solver</h1>
+    </header>
+    <section class="banner">
+    <img src="img/AIS.png" alt=" welcome to aids ">
+    <div class ="welcome">
+        <h2>Artificial Intelligene and<br><span>Data Science</span></h2>
+
+    </div>
+    </section>
+    
+    <main>
+      <article>
+          <h2>Welcome to N puzzle</h2>
+          <p>
+            This web application allows you to solve a N puzzle using  a range of different graph search algorithms.Below side of this application, you will see the Control Panel. Using the Control Panel, you can configure the following aspects of the application:
+            <br>
+                1.Initial State and Goal State
+                <br>2.Which Search Algorithm to use
+
+                <br>This is how the initial and goal state will be looking.
+
+
+            
+        </p>
+      </article>  
+      <ul class="images">
+          
+          <li>
+            <img src="img/initialstate.png" alt="inital state"><br><h2>Initial State</h2></li>
+            
+            <li><img src="img/goalstate.png " alt="goal state"><br><h2>Goal State</h2></li>
+      </ul>
+    </main>
+    <nav class="main-nav">
+        <ul> 
+            
+            <label>Algorithm</label>
+            <select id="searchType">
+                <option value="breadthFirst">Breadth-First</option>
+                <option value="uniformCost">Uniform-Cost</option>
+                <option value="depthFirst">Depth-First</option>
+                <option value="iterativeDeepening">Iterative-Deepening</option>
+                <option value="greedyBest" selected>Greedy-Best</option>
+                <option value="aStar">A*</option>
+            </select>
+           
+            <button id="Initial State" >Initial State</button>
+            <input type="text" id="initial" name="initial state">
+
+            <button id="Goal State">Goal State</button>
+            <input type="text" id="goal" name="goal state">
+            <button id="Search">Search</button>
+        
+           
+
+            
+        </ul>
+
+    </nav>
+    <section class=" join">
+
+
+        <h2>Search Result</h2>
+        <p>
+            Time taken by the algorithm chosen.
+            
+
+        </p>
+       
+
+    </section>
+    <footer>
+       
+        
+        <h3>Vivekanand Education Society's Institute of Technology </h3>
+    </footer>
+
+</body>
+
+</html>
